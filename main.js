@@ -2,7 +2,7 @@ import axios from "axios";
 
 const map = L.map("map").setView([0, 0], 2);
 const issIcon = L.icon({
-  iconUrl: "iss200.png",
+  iconUrl: "./assets/iss200.png",
   iconSize: [50, 32],
   iconAnchor: [25, 16],
 });
